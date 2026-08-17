@@ -1,0 +1,80 @@
+course_id,course_name,category,difficulty,course_stage,prerequisites,path_order,python,java,javascript,web,react,backend,nodejs,spring_boot,dsa,oop,sql,database,system_design,ai,ml,deep_learning,nlp,computer_vision,data_science,statistics,data_engineering,cloud,devops,docker,linux,cybersecurity,testing,git
+1,Python Programming,Programming,Beginner,Foundation,,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2,Advanced Python,Programming,Advanced,Core,python,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3,Java Programming,Programming,Beginner,Foundation,,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+4,Advanced Java,Programming,Advanced,Core,java|oop,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,Object Oriented Programming,Programming,Beginner,Foundation,java,2,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,Data Structures and Algorithms,Programming,Intermediate,Core,java|dsa,3,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+7,Advanced DSA,Programming,Advanced,Advanced,java|dsa,4,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+8,Git and GitHub,Tools,Beginner,Core,git,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+9,Advanced Git and GitHub,Tools,Intermediate,Core,git,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+10,Backend Development Fundamentals,Backend,Beginner,Core,programming,3,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+11,REST API Development,Backend,Beginner,Core,backend,5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+12,Spring Boot Development,Backend,Intermediate,Core,java|backend,6,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+13,Advanced Spring Boot,Backend,Advanced,Advanced,java|spring_boot|backend,7,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+14,Node.js Backend Development,Backend,Intermediate,Core,javascript|backend,6,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+15,Advanced Node.js,Backend,Advanced,Advanced,javascript|nodejs|backend,7,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+16,Microservices Architecture,Backend,Advanced,Advanced,backend|spring_boot|system_design,9,0,1,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+17,System Design Fundamentals,Software Engineering,Intermediate,Advanced,backend|database,8,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+18,Advanced System Design,Software Engineering,Advanced,Advanced,backend|system_design,10,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+19,SQL Fundamentals,Database,Beginner,Foundation,,2,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+20,Advanced SQL,Database,Intermediate,Core,sql|database,4,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+21,Database Management Systems,Database,Intermediate,Core,sql,3,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+22,Advanced Database Systems,Database,Advanced,Advanced,database|sql,5,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+23,MongoDB Development,Database,Intermediate,Core,database|backend,5,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+24,Database Design and Optimization,Database,Advanced,Advanced,database|sql|system_design,7,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+25,HTML and CSS,Web,Beginner,Foundation,,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+26,JavaScript Fundamentals,Web,Beginner,Foundation,web,2,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+27,Advanced JavaScript,Web,Intermediate,Core,javascript|web,3,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+28,Frontend Development,Web,Intermediate,Core,javascript|web,4,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+29,React Development,Web,Intermediate,Core,javascript|web,5,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+30,Advanced React,Web,Advanced,Advanced,javascript|react|web,6,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+31,Frontend Performance and Architecture,Web,Advanced,Advanced,javascript|react|web,7,0,0,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+32,Full Stack Development,Web,Advanced,Advanced,javascript|react|backend|database,8,0,0,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+33,Artificial Intelligence Fundamentals,AI,Beginner,Core,python|ai,2,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+34,Machine Learning Basics,AI,Beginner,Core,python|statistics,4,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0
+35,Intermediate Machine Learning,AI,Intermediate,Core,python|ml|statistics,5,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0
+36,Advanced Machine Learning,AI,Advanced,Advanced,python|ml|statistics,6,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0
+37,Deep Learning Fundamentals,AI,Intermediate,Advanced,python|ml,7,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+38,Advanced Deep Learning,AI,Advanced,Advanced,python|ml|deep_learning,8,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+39,Natural Language Processing,AI,Advanced,Specialization,python|ml,9,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0
+40,Computer Vision,AI,Intermediate,Specialization,python|ml,9,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+41,Generative AI,AI,Advanced,Specialization,python|ml|nlp,10,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0
+42,Large Language Models,AI,Advanced,Specialization,python|ml|nlp,11,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0
+43,AI Model Deployment,AI,Advanced,Advanced,python|ml|cloud,12,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0
+44,MLOps Fundamentals,MLOps,Advanced,Advanced,python|ml|docker|devops|cloud,13,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0
+45,Python for Data Science,Data Science,Beginner,Foundation,python,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+46,Exploratory Data Analysis,Data Science,Intermediate,Core,python|statistics,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+47,Data Visualization,Data Science,Beginner,Core,python|data_science,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+48,Statistics for Data Science,Data Science,Intermediate,Foundation,,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+49,Advanced Statistics,Data Science,Advanced,Advanced,statistics,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+50,Data Analytics,Data Science,Beginner,Core,python|sql,3,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+51,Advanced Data Analytics,Data Science,Intermediate,Core,python|sql|statistics,5,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+52,Power BI for Beginners,Data Science,Beginner,Core,data_science,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+53,Data Science with Python,Data Science,Intermediate,Core,python|statistics|data_science,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+54,Data Engineering Fundamentals,Data Engineering,Beginner,Foundation,python|sql,3,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+55,ETL and Data Pipelines,Data Engineering,Intermediate,Core,python|sql|data_engineering,4,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+56,Advanced Data Engineering,Data Engineering,Advanced,Advanced,python|sql|data_engineering|cloud,6,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+57,Data Warehousing,Data Engineering,Intermediate,Core,sql|database,5,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+58,Cloud Data Engineering,Data Engineering,Advanced,Advanced,sql|data_engineering|cloud,7,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+59,Cloud Computing Fundamentals,Cloud,Beginner,Foundation,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+60,AWS Fundamentals,Cloud,Beginner,Foundation,cloud,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+61,AWS Cloud Architecture,Cloud,Advanced,Advanced,cloud|system_design,5,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+62,DevOps Fundamentals,DevOps,Beginner,Foundation,cloud,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
+63,Docker and Containers,DevOps,Beginner,Core,devops,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0
+64,Advanced Docker,DevOps,Intermediate,Core,docker|devops,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0
+65,CI/CD Fundamentals,DevOps,Intermediate,Core,git|devops,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1
+66,Kubernetes Fundamentals,DevOps,Intermediate,Advanced,docker|devops|cloud,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0
+67,Advanced Kubernetes,DevOps,Advanced,Advanced,docker|devops|cloud|system_design,7,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0
+68,Linux Fundamentals,DevOps,Beginner,Foundation,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+69,Linux for Developers,DevOps,Intermediate,Core,linux,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+70,Cyber Security Fundamentals,Cybersecurity,Beginner,Foundation,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+71,Network Security,Cybersecurity,Intermediate,Core,cybersecurity|linux,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+72,Ethical Hacking Basics,Cybersecurity,Beginner,Core,cybersecurity|linux,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+73,Web Application Security,Cybersecurity,Intermediate,Core,cybersecurity|web,5,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+74,Advanced Ethical Hacking,Cybersecurity,Advanced,Advanced,cybersecurity|linux|web,6,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+75,Security Operations Fundamentals,Cybersecurity,Intermediate,Core,cybersecurity|linux,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+76,Software Testing Fundamentals,QA,Beginner,Foundation,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+77,Test Automation with Python,QA,Intermediate,Core,testing|python,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+78,Test Automation with Java,QA,Intermediate,Core,testing|java,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+79,Advanced Test Automation,QA,Advanced,Advanced,testing|java|python,5,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
