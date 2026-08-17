@@ -10,7 +10,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 # Always resolve the CSV relative to recommender.py.
 # This prevents Streamlit/VS Code working-directory issues.
 BASE_DIR = Path(__file__).resolve().parent
-COURSES_PATH = BASE_DIR / "data" / "courses.csv"
+COURSES_PATH = BASE_DIR / "Data" / "Courses.csv"
 
 if not COURSES_PATH.exists():
     raise FileNotFoundError(
