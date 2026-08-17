@@ -54,10 +54,10 @@ def go_back_to_assessment():
 # =========================================================
 
 try:
-    courses = pd.read_csv("data/Courses.csv")
+    courses = pd.read_csv("Data/Courses.csv")
 except FileNotFoundError:
     try:
-        courses = pd.read_csv("data/courses.csv")
+        courses = pd.read_csv("Data/courses.csv")
     except FileNotFoundError:
         st.error("Courses CSV not found. Put Courses.csv inside the data folder.")
         st.stop()
