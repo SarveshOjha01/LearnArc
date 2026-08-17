@@ -54,10 +54,10 @@ def go_back_to_assessment():
 # =========================================================
 
 try:
-    courses = pd.read_csv("Data/Courses.csv")
+    courses = pd.read_csv("data/Courses.csv")
 except FileNotFoundError:
     try:
-        courses = pd.read_csv("Data/courses.csv")
+        courses = pd.read_csv("data/courses.csv")
     except FileNotFoundError:
         st.error("Courses CSV not found. Put Courses.csv inside the data folder.")
         st.stop()
@@ -1787,38 +1787,11 @@ if st.session_state.assessment_done:
     """)
 
 
-
-# =========================================================
-# PRESENTATION FOOTER
-# =========================================================
-
-st.html("""
-<div style="
-    margin-top:55px;
-    padding-top:20px;
-    border-top:1px solid #DDDCD5;
-    display:flex;
-    justify-content:space-between;
-    gap:20px;
-    color:#7A808B;
-    font-size:11px;
-    line-height:1.5;
-">
-    <div>
-        <b style="color:#111318;">learn<span style="color:#315CFF;">arc</span></b>
-        · Personalized Learning Intelligence
-    </div>
-    <div>
-        Assess · Recommend · Connect
-    </div>
-</div>
-""")
-
 # =========================================================
 # APP NAVIGATION
 # =========================================================
 if st.session_state.assessment_done:
     st.write("")
-    if st.button("↻ Start over", key="start_over"):
+    if st.button("Start over", key="start_over"):
         go_back_to_home()
         st.rerun()
